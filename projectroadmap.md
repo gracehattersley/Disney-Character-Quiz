@@ -1,3 +1,6 @@
 # Example code exploration
 I first started by exploring a Harry Potter quiz, but it did not look like the right format for Python so I didn't understand it very well.
 After looking at that one, I found another that was Python based related the the Friends TV series characters. I looked over that and understood the code a lot better. It was simple and the comments for every coding process was clear. It looks like a good example for my project.
+# Further code exploration and character quiz thoughts
+I went through the example Harry Potter code again to ensure I understoor the process and analyzed the style she chose. I want to make sure I fully understand her code before attempting my own. I'm looking at what things I like vs what I think I could improve on. I also looked through an additional code for further research. This one aligns a little more with the kind of quiz I want to do, so I'm thinking of mixing what I like from both quizzes. I ran it and it initially gives the option to choose between three different quizzes. I really like this feature, because it narrows down the quiz and the player can choose the one they prefer most. I'm thinking of doing this with Disney princesses/girls, Disney princes/boys, and Disney animals.
+# Deciding on question type and creating questions in coding file
