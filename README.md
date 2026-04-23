@@ -4,7 +4,8 @@ An assessment designed to match you with the Disney animation character most sim
 [Done] Research existing Python quiz apps on GitHub
 [Done] Clone and run a sample quiz project
 [Done] Decide quiz format (multiple choice, scoring system, etc.)
-[ ] Create intro code
+[Done] Create intro for code
+[ ] Create dictionary
 [ ] Write at least 20 Disney personality questions
 [ ] Assigned character outcomes (ex. Ariel, Simba, Daisy, etc)
 [ ] Create python script structure
