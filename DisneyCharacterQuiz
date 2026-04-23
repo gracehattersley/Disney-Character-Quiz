@@ -6,5 +6,12 @@ if name.strip() == "":
     name = "Friend"\
 # Personalized greeting
 print(f"\nHey {name}, I hope you love Disney because this quiz will help you discover the character that best fits you!")
+# Which category question
+print("\nBefore we get started, choose which type of Disney character you are more interest in:")
+print("1. Disney Princesses/Girls")
+print("2. Disney Princes/Boys")
+print("3. Disney Animals")
+category = input ("Type 1, 2, or 3:")
 
-
+# Category selection
+print(f"\nAwesome choice, {name}! You selected option {category}. Now we can get into the real fun!")
