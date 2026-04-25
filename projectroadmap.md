@@ -7,5 +7,7 @@ I went through the example Harry Potter code again to ensure I understoor the pr
 I've decided to do a scoring system type of quiz, so I will have numbers 1-5 to assign to different characters. I've also created the offical coding file in the Github folder with the Roadmap and Readme file. 
 # Code intro
 I created the code introduction. This includes the input function used for to personalize the quiz to the persons name and few print functions used to welcome the user.
-# Code Categories
+# Code categories
 I created the function that displays the three catgories they can choose from. This includes a print function displaying Disney princess/girls, princes/boys, and animals. I also assigned numbers to each for the scoring system. 
+# Code dictionary
+I decided on which characters I was going to use. I chose 4 for each category so 12 in total. I then labeled personality traits for each character. This is the basis of the scoring system for the personality quiz. 

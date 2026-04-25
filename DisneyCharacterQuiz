@@ -8,10 +8,33 @@ if name.strip() == "":
 print(f"\nHey {name}, I hope you love Disney because this quiz will help you discover the character that best fits you!")
 # Which category question
 print("\nBefore we get started, choose which type of Disney character you are more interest in:")
-print("1. Disney Princesses/Girls")
-print("2. Disney Princes/Boys")
+print("1. Disney Princesses")
+print("2. Disney Princes")
 print("3. Disney Animals")
 category = input ("Type 1, 2, or 3:")
 
 # Category selection
 print(f"\nAwesome choice, {name}! You selected option {category}. Now we can get into the real fun!")
+
+#Dictionary
+princesses = {
+"Elsa": ["independent". "reserved", "protective"],
+"Tiana": ["hardworking", "ambitious", "practical"],
+"Ariel": ["curious", "adventurous", "optimistic"],
+"Belle": ["intelligent", "kind", "open-minded"]
+}
+
+princes = {
+"Eric": ["brave", "romantic", "loyal"]
+"Charming": ["polite", "traditional", "hopeful"]
+"Aladdin": ["resourceful", "playful", "big-hearted"]
+"Naveen": ["fun-loving", "charismatic", "easygoing"]
+
+}
+
+animals = {
+"Olaf": ["friendly", "silly", "warmm-hearted"]
+"Simba": ["confident", "playful", "protective"]
+"Maximus" ["determined", "brave", "dutiful "]
+"Nemo": ["curious", "brave", "sweey"]
+}
