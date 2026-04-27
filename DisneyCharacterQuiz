@@ -38,3 +38,105 @@ animals = {
 "Maximus" ["determined", "brave", "dutiful "]
 "Nemo": ["curious", "brave", "sweey"]
 }
+
+princess_questions = [
+    { 
+        "question": "What motivates you the most?",
+        "options": {
+            "a": "Protecting the people you love",
+            "b": "Achieving your dreams through hard work",
+            "c": Exploring the unknown:,
+            "d": "Learning and undedrstanding the world"
+        },
+        "traits" {
+            "a": "protective",  #Elsa
+            "b": "ambitious",   #Tiana
+            "c": "curious",     #Ariel
+            "d": "intelligent"   #Belle
+        }
+    },
+    {   "question": "Which environment feels most like home?",
+        "options": {
+            "a": "A quiet, snowy place",
+            "b": "A warm, lively city",
+            "c": "The ocean or beach",
+            "d": "A cozy library"
+        },
+        "traits" {
+            "a": "reserved",
+            "b": "practical",
+            "c": "optimistic",
+            "d": "open-minded"
+        }
+    },
+    {   "question": "Which quality do you value most in yourself?",
+        "options": {
+            "a": "Your independence",
+            "b": "Your determination",
+            "c": "Your sense of adventure",
+            "d": "Your kindess and empathy"
+        },
+        "traits" {
+            "a": "independent",
+            "b": "ambitious",
+            "c": "curious",
+            "d": "kind"
+        }
+    },
+    {   "question": "What type of friend are you?",
+        "options": {
+            "a": "The protective one",
+            "b": "The hardworking one",
+            "c": "The fun, spontaneous one",
+            "d": "THe thoughtful, understanding one"
+        },
+        "traits" {
+            "a": "protective",
+            "b": "practical",
+            "c": "optimistic",
+            "d": "open-minded"
+        }
+    },
+    {   "question": "What's your ideal weekend?",
+        "options": {
+            "a": "Relaxing alone and recharging",
+            "b": "Working on a personal goal",
+            "c": "Exploring or laarning something new",
+            "d": "Reading or learning something new"
+        },
+        "traits" {
+            "a": "reserved",
+            "b": "hardworking",
+            "c": "adventurous",
+            "d": "intelligent"
+        }
+    },
+    {   "question": "How do you handel conflict?",
+        "options": {
+            "a": "Distance yourself until you cool down",
+            "b": "Talk it out calmly and logically",
+            "c": "Follow your heart and express your feelings",
+            "d": "Try to understand everyone's perspective"
+        },
+        "traits" {
+            "a": "reserved",
+            "b": "practical",
+            "c": "optimistic",
+            "d": "kind"
+        }
+    },
+    {   "question": "Which role fits you best?",
+        "options": {
+            "a": "The leader",
+            "b": "The achiever",
+            "c": "The dreamer",
+            "d": "The thinker"
+        },
+        "traits" {
+            "a": "independent",
+            "b": "ambitious",
+            "c": "curious",
+            "d": "intelligent"
+        }
+    }
+]
