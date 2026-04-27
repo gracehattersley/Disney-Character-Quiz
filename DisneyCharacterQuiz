@@ -36,7 +36,7 @@ animals = {
 "Olaf": ["friendly", "silly", "warmm-hearted"]
 "Simba": ["confident", "playful", "protective"]
 "Maximus" ["determined", "brave", "dutiful "]
-"Nemo": ["curious", "brave", "sweey"]
+"Nemo": ["curious", "brave", "sweet"]
 }
 
 princess_questions = [
@@ -45,7 +45,7 @@ princess_questions = [
         "options": {
             "a": "Protecting the people you love",
             "b": "Achieving your dreams through hard work",
-            "c": Exploring the unknown:,
+            "c": "Exploring the unknown",
             "d": "Learning and undedrstanding the world"
         },
         "traits" {
@@ -111,7 +111,7 @@ princess_questions = [
             "d": "intelligent"
         }
     },
-    {   "question": "How do you handel conflict?",
+    {   "question": "How do you handle conflict?",
         "options": {
             "a": "Distance yourself until you cool down",
             "b": "Talk it out calmly and logically",
@@ -139,4 +139,112 @@ princess_questions = [
             "d": "intelligent"
         }
     }
+]
+
+princes_questions = [
+    { 
+        "question": "What do you look for in an adventure?",
+        "options": {
+            "a": "A chance to protect someone",
+            "b": "A meaninful purpose",
+            "c": "A clever challenge",
+            "d": "A fun experience"
+        },
+        "traits" {
+            "a": "loyal",         #Eric
+            "b": "traditional",     #Charming
+            "c": "resourceful",   #Alladin
+            "d": "easygoing"      #Naveen
+        }
+    },
+    { 
+        "question": "How do you make decisions?",
+        "options": {
+            "a": "With your heart",
+            "b": "By following tradition",
+            "c": "By trusting your instincts",
+            "d": "By going with the flow"
+        },
+        "traits" {
+            "a": "romantic",        
+            "b": "hopeful",     
+            "c": "big-hearted",  
+            "d": "charismatic"      
+        }
+    },
+    { 
+        "question": "What's your biggest strength?",
+        "options": {
+            "a": "Your bravery",
+            "b": "Your courtesy",
+            "c": "Your creativity",
+            "d": "Your charm"
+        },
+        "traits" {
+            "a": "brave",        
+            "b": "polite",     
+            "c": "resourceful",  
+            "d": "charismatic"      
+        }
+    },
+    { 
+        "question": "How do you treat others?",
+        "options": {
+            "a": "With loyalty and respect",
+            "b": "With politeness and manners",
+            "c": "With generosity and heart",
+            "d": "With humor and warmth"
+        },
+        "traits" {
+            "a": "loyal",        
+            "b": "trational",     
+            "c": "big-hearted",  
+            "d": "easygoing"      
+        }
+    },
+   { 
+        "question": "What kind of partner would you be?",
+        "options": {
+            "a": "Protective and devoted",
+            "b": "Stable and dependable",
+            "c": "Adventurous and supportive",
+            "d": "Fun and carefree"
+        },
+        "traits" {
+            "a": "romantic",        
+            "b": "hopeful",     
+            "c": "resourceful",  
+            "d": "charismatic"      
+        }
+    },
+    { 
+        "question": "How do you approach meeting someone new?",
+        "options": {
+            "a": "Show genuine interest in them",
+            "b": "Be kind and respectful",
+            "c": "Break the ice with humor",
+            "d": "Go with what feels the most natural"
+        },
+        "traits" {
+            "a": "loyal",        
+            "b": "traditional",     
+            "c": "big-hearted",  
+            "d": "charismatic"      
+        }
+    },
+    { 
+        "question": "How do you show appreciation to others?",
+        "options": {
+            "a": "By being there when it matters",
+            "b": "By honoring traditions or gestures",
+            "c": "By doing something thoughtful and unexpected",
+            "d": "By making them smile"
+        },
+        "traits" {
+            "a": "loyal",        
+            "b": "traditonal",     
+            "c": "big-hearted",  
+            "d": "charismatic"      
+        }
+    },
 ]

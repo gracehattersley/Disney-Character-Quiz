@@ -13,3 +13,5 @@ I created the function that displays the three catgories they can choose from. T
 I decided on which characters I was going to use. I chose 4 for each category so 12 in total. I then labeled personality traits for each character. This is the basis of the scoring system for the personality quiz. 
 # Created Princesses questions
 I created 7 questions for the disney princess section with answers matching the select personality traits for each of the 4 characters. 
+# Updated the README.md checklist
+I updated the checklist by moving tasks around and creating new task on my list. These better match with the order I am actually performing the steps and better represent my progress. 
