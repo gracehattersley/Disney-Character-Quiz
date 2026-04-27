@@ -15,3 +15,5 @@ I decided on which characters I was going to use. I chose 4 for each category so
 I created 7 questions for the disney princess section with answers matching the select personality traits for each of the 4 characters. 
 # Updated the README.md checklist
 I updated the checklist by moving tasks around and creating new task on my list. These better match with the order I am actually performing the steps and better represent my progress. 
+# Created Princes questions
+I created 7 questions for the disney prince section with answers best matching the select personality traits for each of the 4 princes I chose. 
