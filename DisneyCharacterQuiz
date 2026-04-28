@@ -35,7 +35,7 @@ princes = {
 animals = {
 "Olaf": ["friendly", "silly", "warmm-hearted"]
 "Simba": ["confident", "playful", "protective"]
-"Maximus" ["determined", "brave", "dutiful "]
+"Maximus" ["determined", "loyal", "dutiful "]
 "Nemo": ["curious", "brave", "sweet"]
 }
 
@@ -245,6 +245,114 @@ princes_questions = [
             "b": "traditonal",     
             "c": "big-hearted",  
             "d": "charismatic"      
+        }
+    },
+]
+
+animal_questions = [
+    { 
+        "question": "What brings you the most joy?",
+        "options": {
+            "a": "Sharing moments with others",
+            "b": "Feeling confident in what you do",
+            "c": "Finishing something important",
+            "d": "Discovering something new"
+        },
+        "traits" {
+            "a": "warm-hearted",    #Olaf
+            "b": "protective",      #Simba
+            "c": "dutiful",         #Maximus
+            "d": "curious"          #Nemo
+        }
+    },
+    { 
+        "question": "How do you handle a tough day?",
+        "options": {
+            "a": "Try to stay upbeat",
+            "b": "Push through with strength",
+            "c": "Stay focused on what needs to be done",
+            "d": "Look for something interesting to distract you"
+        },
+        "traits" {
+            "a": "silly",   
+            "b": "brave",      
+            "c": "determined",         
+            "d": "sweet"         
+        }
+    },
+    { 
+        "question": "What kind of activities do you enjoy?",
+        "options": {
+            "a": "Anything that makes people smile",
+            "b": "Running around or being active",
+            "c": "Helping someone reach a goal",
+            "d": "Exploring unfamiliar places"
+        },
+        "traits" {
+            "a": "warm-hearted",   
+            "b": "playful",      
+            "c": "loyal",         
+            "d": "curious"         
+        }
+    },
+    { 
+        "question": "How do you respond when someone needs support?",
+        "options": {
+            "a": "Offer comfort",
+            "b": "Stand strong for them",
+            "c": "Take responsibility",
+            "d": "Stay gentle and patient"
+        },
+        "traits" {
+            "a": "warm-hearted",   
+            "b": "protective",      
+            "c": "dutiful",         
+            "d": "sweet"         
+        }
+    },
+    { 
+        "question": "What's your favorite type of moment?",
+        "options": {
+            "a": "A silly moment with friends",
+            "b": "A moment where you feel bold",
+            "c": "A moment where you accomplish something",
+            "d": "A moment of discovery"
+        },
+        "traits" {
+            "a": "silly",   
+            "b": "brave",      
+            "c": "dutiful",         
+            "d": "curious"         
+        }
+    },
+    {
+        "question": "What inner quality feels the most natural to you?",
+        "options": {
+            "a": "Comforting others",
+            "b": "Standing strong in your opinions and beliefs",
+            "c": "Taking responsibility without being asked",
+            "d": "Seeking out new experiences"
+        },
+        "traits" {
+            "a": "warm-hearted",   
+            "b": "brave",      
+            "c": "dutiful",         
+            "d": "curious"         
+        }
+    },
+    { 
+        "question": "How would your bestfriend describe your natural energy?",
+        "options": {
+            "a": "Light and uplifting",
+            "b": "Bold and fierce",
+            "c": "Focused and reliable",
+            "d": "Gentle and open"
+        },
+        "traits" {
+            "a": "silly",   
+            "b": "protective",      
+            "c": "determined",         
+            "d": "sweet"         
         }
     },
 ]

@@ -10,12 +10,12 @@ An assessment designed to match you with the Disney animation character most sim
 [Done] Create python script structure
 [Done] Test simple question input and output in Python.
 [Done] Create Disney princess questions
-[ ] Create Disney prince questions
-[ ] Create Disney animal questions
-[ ] Complete at least 20 Disney personality questions total
+[Done] Create Disney prince questions
+[Done] Create Disney animal questions
+[Done] Complete at least 20 Disney personality questions total
 
 # Sprint 3 Tasks
-[ ] Run the code again
+[ ] Run the code
 [ ] Establish and fix any errors
 [ ] Add any additional character questions
 [ ] Add any further adustments to improve the character quiz 

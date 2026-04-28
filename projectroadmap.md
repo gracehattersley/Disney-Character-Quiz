@@ -16,4 +16,6 @@ I created 7 questions for the disney princess section with answers matching the 
 # Updated the README.md checklist
 I updated the checklist by moving tasks around and creating new task on my list. These better match with the order I am actually performing the steps and better represent my progress. 
 # Created Princes questions
-I created 7 questions for the disney prince section with answers best matching the select personality traits for each of the 4 princes I chose. 
+I created 7 questions for the Disney prince section with answers best matching the select personality traits for each of the 4 princes I chose. 
+# Created Disney animal questions
+I created 7 questions for the Disney animals with answer choices that match the specific personality traits of the 4 animal characters. I finished all of my tasks on the README.md file for Sprints 1 and 2.
