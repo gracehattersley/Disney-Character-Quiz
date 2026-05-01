@@ -362,16 +362,16 @@ def run_quiz(questions):
     scores = {}
 
     for q in questions:
-        print("\n" + q["questions"])
-        for key, text in q["options"].items()
+        print("\n" + q["question"])
+        for key, text in q["options"].items():
             print(f"{key}) {text}")
 
-        answer - input("Choose a, b, a, or d:").lower()
+        answer = input("Choose a, b, c, or d:").lower()
 
         while answer not in ["a", "b", "c", "d"]:
             answer = input("please type a, b, c, or d:").lower()
         
-        traits = q["traits"][answer]
+        trait = q["traits"][answer]
         scores[trait] = scores.get(trait, 0) + 1
 
     return scores
@@ -407,4 +407,4 @@ else:
     exit()
 
 # Final result
-print(f"\n {name}, your Disney character match is: **{final_character}!**")
+print(f"\n {name}, your Disney character match is:{final_character}!")
