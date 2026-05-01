@@ -15,7 +15,7 @@ An assessment designed to match you with the Disney animation character most sim
 [Done] Complete at least 20 Disney personality questions total
 
 # Sprint 3 Tasks
-[ ] Run the code
-[ ] Establish and fix any errors
+[Done] Run the code
+[Done] Establish and fix any errors
 [ ] Add any additional character questions
 [ ] Add any further adustments to improve the character quiz 

@@ -3,7 +3,7 @@ print("Hi! Welcome to the Disney Character Quiz!")
 name = input("Please type your name: ")
 # If left blank, use "friend" 
 if name.strip() == "":
-    name = "Friend"\
+    name = "Friend"
 # Personalized greeting
 print(f"\nHey {name}, I hope you love Disney because this quiz will help you discover the character that best fits you!")
 # Which category question
@@ -18,24 +18,24 @@ print(f"\nAwesome choice, {name}! You selected option {category}. Now we can get
 
 #Dictionary
 princesses = {
-"Elsa": ["independent". "reserved", "protective"],
+"Elsa": ["independent", "reserved", "protective"],
 "Tiana": ["hardworking", "ambitious", "practical"],
 "Ariel": ["curious", "adventurous", "optimistic"],
 "Belle": ["intelligent", "kind", "open-minded"]
 }
 
 princes = {
-"Eric": ["brave", "romantic", "loyal"]
-"Charming": ["polite", "traditional", "hopeful"]
-"Aladdin": ["resourceful", "playful", "big-hearted"]
+"Eric": ["brave", "romantic", "loyal"],
+"Charming": ["polite", "traditional", "hopeful"],
+"Aladdin": ["resourceful", "playful", "big-hearted"],
 "Naveen": ["fun-loving", "charismatic", "easygoing"]
 
 }
 
 animals = {
-"Olaf": ["friendly", "silly", "warmm-hearted"]
-"Simba": ["confident", "playful", "protective"]
-"Maximus" ["determined", "loyal", "dutiful "]
+"Olaf": ["friendly", "silly", "warm-hearted"],
+"Simba": ["confident", "playful", "protective"],
+"Maximus": ["determined", "loyal", "dutiful"],
 "Nemo": ["curious", "brave", "sweet"]
 }
 
@@ -48,7 +48,7 @@ princess_questions = [
             "c": "Exploring the unknown",
             "d": "Learning and undedrstanding the world"
         },
-        "traits" {
+        "traits": {
             "a": "protective",  #Elsa
             "b": "ambitious",   #Tiana
             "c": "curious",     #Ariel
@@ -62,7 +62,7 @@ princess_questions = [
             "c": "The ocean or beach",
             "d": "A cozy library"
         },
-        "traits" {
+        "traits": {
             "a": "reserved",
             "b": "practical",
             "c": "optimistic",
@@ -76,7 +76,7 @@ princess_questions = [
             "c": "Your sense of adventure",
             "d": "Your kindess and empathy"
         },
-        "traits" {
+        "traits": {
             "a": "independent",
             "b": "ambitious",
             "c": "curious",
@@ -88,9 +88,9 @@ princess_questions = [
             "a": "The protective one",
             "b": "The hardworking one",
             "c": "The fun, spontaneous one",
-            "d": "THe thoughtful, understanding one"
+            "d": "The thoughtful, understanding one"
         },
-        "traits" {
+        "traits": {
             "a": "protective",
             "b": "practical",
             "c": "optimistic",
@@ -104,7 +104,7 @@ princess_questions = [
             "c": "Exploring or laarning something new",
             "d": "Reading or learning something new"
         },
-        "traits" {
+        "traits": {
             "a": "reserved",
             "b": "hardworking",
             "c": "adventurous",
@@ -118,7 +118,7 @@ princess_questions = [
             "c": "Follow your heart and express your feelings",
             "d": "Try to understand everyone's perspective"
         },
-        "traits" {
+        "traits": {
             "a": "reserved",
             "b": "practical",
             "c": "optimistic",
@@ -132,7 +132,7 @@ princess_questions = [
             "c": "The dreamer",
             "d": "The thinker"
         },
-        "traits" {
+        "traits": {
             "a": "independent",
             "b": "ambitious",
             "c": "curious",
@@ -150,10 +150,10 @@ princes_questions = [
             "c": "A clever challenge",
             "d": "A fun experience"
         },
-        "traits" {
+        "traits": {
             "a": "loyal",         #Eric
             "b": "traditional",     #Charming
-            "c": "resourceful",   #Alladin
+            "c": "resourceful",   #Aladdin
             "d": "easygoing"      #Naveen
         }
     },
@@ -165,7 +165,7 @@ princes_questions = [
             "c": "By trusting your instincts",
             "d": "By going with the flow"
         },
-        "traits" {
+        "traits": {
             "a": "romantic",        
             "b": "hopeful",     
             "c": "big-hearted",  
@@ -180,7 +180,7 @@ princes_questions = [
             "c": "Your creativity",
             "d": "Your charm"
         },
-        "traits" {
+        "traits": {
             "a": "brave",        
             "b": "polite",     
             "c": "resourceful",  
@@ -195,9 +195,9 @@ princes_questions = [
             "c": "With generosity and heart",
             "d": "With humor and warmth"
         },
-        "traits" {
+        "traits": {
             "a": "loyal",        
-            "b": "trational",     
+            "b": "tradional",     
             "c": "big-hearted",  
             "d": "easygoing"      
         }
@@ -210,7 +210,7 @@ princes_questions = [
             "c": "Adventurous and supportive",
             "d": "Fun and carefree"
         },
-        "traits" {
+        "traits": {
             "a": "romantic",        
             "b": "hopeful",     
             "c": "resourceful",  
@@ -225,7 +225,7 @@ princes_questions = [
             "c": "Break the ice with humor",
             "d": "Go with what feels the most natural"
         },
-        "traits" {
+        "traits": {
             "a": "loyal",        
             "b": "traditional",     
             "c": "big-hearted",  
@@ -240,7 +240,7 @@ princes_questions = [
             "c": "By doing something thoughtful and unexpected",
             "d": "By making them smile"
         },
-        "traits" {
+        "traits": {
             "a": "loyal",        
             "b": "traditonal",     
             "c": "big-hearted",  
@@ -258,7 +258,7 @@ animal_questions = [
             "c": "Finishing something important",
             "d": "Discovering something new"
         },
-        "traits" {
+        "traits": {
             "a": "warm-hearted",    #Olaf
             "b": "protective",      #Simba
             "c": "dutiful",         #Maximus
@@ -273,7 +273,7 @@ animal_questions = [
             "c": "Stay focused on what needs to be done",
             "d": "Look for something interesting to distract you"
         },
-        "traits" {
+        "traits": {
             "a": "silly",   
             "b": "brave",      
             "c": "determined",         
@@ -288,7 +288,7 @@ animal_questions = [
             "c": "Helping someone reach a goal",
             "d": "Exploring unfamiliar places"
         },
-        "traits" {
+        "traits": {
             "a": "warm-hearted",   
             "b": "playful",      
             "c": "loyal",         
@@ -303,7 +303,7 @@ animal_questions = [
             "c": "Take responsibility",
             "d": "Stay gentle and patient"
         },
-        "traits" {
+        "traits": {
             "a": "warm-hearted",   
             "b": "protective",      
             "c": "dutiful",         
@@ -318,7 +318,7 @@ animal_questions = [
             "c": "A moment where you accomplish something",
             "d": "A moment of discovery"
         },
-        "traits" {
+        "traits": {
             "a": "silly",   
             "b": "brave",      
             "c": "dutiful",         
@@ -333,7 +333,7 @@ animal_questions = [
             "c": "Taking responsibility without being asked",
             "d": "Seeking out new experiences"
         },
-        "traits" {
+        "traits": {
             "a": "warm-hearted",   
             "b": "brave",      
             "c": "dutiful",         
@@ -341,14 +341,14 @@ animal_questions = [
         }
     },
     { 
-        "question": "How would your bestfriend describe your natural energy?",
+        "question": "How would your best friend describe your natural energy?",
         "options": {
             "a": "Light and uplifting",
             "b": "Bold and fierce",
             "c": "Focused and reliable",
             "d": "Gentle and open"
         },
-        "traits" {
+        "traits": {
             "a": "silly",   
             "b": "protective",      
             "c": "determined",         
