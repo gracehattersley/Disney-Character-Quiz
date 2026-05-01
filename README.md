@@ -17,5 +17,6 @@ An assessment designed to match you with the Disney animation character most sim
 # Sprint 3 Tasks
 [Done] Run the code
 [Done] Establish and fix any errors
+[Done] Add final coding to allow code to run
 [ ] Add any additional character questions
 [ ] Add any further adustments to improve the character quiz 

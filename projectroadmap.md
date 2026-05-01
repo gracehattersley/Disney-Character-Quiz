@@ -20,4 +20,6 @@ I created 7 questions for the Disney prince section with answers best matching t
 # Created Disney animal questions
 I created 7 questions for the Disney animals with answer choices that match the specific personality traits of the 4 animal characters. I finished all of my tasks on the README.md file for Sprints 1 and 2.\
 # Ran the code and fixed errors
-I tested the code and found many syntax errors, so I had to first change those. The code is still not running so now I know there are more steps I need to add in order to get the code to run properly. That will be my next step. 
+I tested the code and found many syntax errors, so I had to first change those. The code is still not running so now I know there are more steps I need to add in order to get the code to run properly. That will be my next step.
+# Added the final coding part
+I added the final coding so the code will run properly.
