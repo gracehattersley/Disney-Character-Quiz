@@ -23,3 +23,5 @@ I created 7 questions for the Disney animals with answer choices that match the 
 I tested the code and found many syntax errors, so I had to first change those. The code is still not running so now I know there are more steps I need to add in order to get the code to run properly. That will be my next step.
 # Added the final coding part
 I added the final coding so the code will run properly.
+# Added final Python file
+I created and added the final Python file, because the original one was a text file and part of the reason I was having issues getting it to run. The code runs perfectly now!
