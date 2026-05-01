@@ -356,3 +356,55 @@ animal_questions = [
         }
     },
 ]
+
+# Function to run the quiz
+def run_quiz(questions):
+    scores = {}
+
+    for q in questions:
+        print("\n" + q["questions"])
+        for key, text in q["options"].items()
+            print(f"{key}) {text}")
+
+        answer - input("Choose a, b, a, or d:").lower()
+
+        while answer not in ["a", "b", "c", "d"]:
+            answer = input("please type a, b, c, or d:").lower()
+        
+        traits = q["traits"][answer]
+        scores[trait] = scores.get(trait, 0) + 1
+
+    return scores
+
+# Function to determine best character
+def match_character(scores, characters):
+    best_character = None
+    best_score = -1 
+
+    for character, traits in characters.items():
+        score = sum(scores.get(t,0) for t in traits)
+        if score > best_score:
+            best_score = score
+            best_character = character
+    
+    return best_character 
+
+# Run quiz based on category
+if category =="1":
+    print("\nGreat! Let's beging the Disney Princess quiz!")
+    result_scores = run_quiz(princess_questions)
+    final_character = match_character(result_scores, princesses)
+elif category =="2":
+    print("\nGreat! Let's beging the Disney Prince quiz!")
+    result_scores = run_quiz(princes_questions)
+    final_character = match_character(result_scores, princes)
+elif category =="3":
+    print("\nGreat! Let's beging the Disney Animal quiz!")
+    result_scores = run_quiz(animal_questions)
+    final_character = match_character(result_scores, animals)
+else:
+    print("Invalid choice. PLease restart the quiz.")
+    exit()
+
+# Final result
+print(f"\n {name}, your Disney character match is: **{final_character}!**")
