@@ -18,5 +18,5 @@ An assessment designed to match you with the Disney animation character most sim
 [Done] Run the code
 [Done] Establish and fix any errors
 [Done] Add final coding to allow code to run
-[ ] Add any additional character questions
-[ ] Add any further adustments to improve the character quiz 
+[Done] Add final Python file to fix text file error
+[Done] Add any further adustments to improve the character quiz 

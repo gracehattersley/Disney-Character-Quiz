@@ -138,7 +138,22 @@ princess_questions = [
             "c": "curious",
             "d": "intelligent"
         }
-    }
+    },
+    { 
+        "question": "You're asked to lead a group project, but one teammate keeps trying to take over. What do you do?",
+        "options": {
+            "a": "Step back and let them take the lead to keep the peace",
+            "b": "Set clear roles so everyone knows their responsibilities",
+            "c": "Suggest splitting the work evenly and checking in later",
+            "d": "Try to understand why they feel the need to control everything"
+        },
+        "traits": {
+            "a": "reserved",        
+            "b": "practical",     
+            "c": "optimistic",  
+            "d": "open-minded"      
+        }
+    },
 ]
 
 princes_questions = [
@@ -247,6 +262,21 @@ princes_questions = [
             "d": "charismatic"      
         }
     },
+    { 
+        "question":  "Your group is stressed during a long project. What do you do to help?",
+        "options":{
+            "a": "Crack a joke to lighten the mood",
+            "b": "Offer to take on a small task for someone",
+            "c": "Suggest taking a short break together",
+            "d": "Encourage everyone to keep going"
+        },
+        "traits": {
+            "a": "charismatic",        
+            "b": "big-hearted",     
+            "c": "easygoing",  
+            "d": "hopeful"      
+        }
+    }    
 ]
 
 animal_questions = [
@@ -355,6 +385,21 @@ animal_questions = [
             "d": "sweet"         
         }
     },
+    { 
+        "question": "Someone criticizes a person you care about. How do you react?",
+        "options": {
+            "a": "Step in and defend them",
+            "b": "Try to understand the full situation first",
+            "c": "Encourage your friend privately afterward",
+            "d": "Redirect the conversation to avoid conflict"
+        },
+        "traits": {
+            "a": "protective",        
+            "b": "brave",     
+            "c": "sweet",  
+            "d": "playful"      
+        }
+    }
 ]
 
 # Function to run the quiz
