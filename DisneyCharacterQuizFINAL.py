@@ -1,9 +1,11 @@
 # Ask for users name 
 print("Hi! Welcome to the Disney Character Quiz!")
 name = input("Please type your name: ")
+
 # If left blank, use "friend" 
 if name.strip() == "":
     name = "Friend"
+    
 # Personalized greeting
 print(f"\nHey {name}, I hope you love Disney because this quiz will help you discover the character that best fits you!")
 # Which category question
